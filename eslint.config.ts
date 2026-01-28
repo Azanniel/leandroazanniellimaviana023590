@@ -34,6 +34,7 @@ export default defineConfig([
           arrowParens: 'always',
           semi: false,
           endOfLine: 'lf',
+          plugins: ['prettier-plugin-tailwindcss'],
         },
       ],
     },
