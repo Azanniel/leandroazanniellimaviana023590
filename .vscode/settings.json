@@ -8,5 +8,6 @@
   // Tailwind CSS
   "editor.quickSuggestions": {
     "strings": "on"
-  }
+  },
+  "tailwindCSS.classFunctions": ["tv", "twMerge"]
 }
