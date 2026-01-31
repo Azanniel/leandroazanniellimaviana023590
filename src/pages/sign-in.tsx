@@ -20,11 +20,16 @@ export function SignIn() {
 
           <form className="flex flex-col gap-4">
             <Field>
-              <FieldLabel htmlFor="email">
-                Email
+              <FieldLabel htmlFor="username">
+                Usuário
                 <span className="text-destructive">*</span>
               </FieldLabel>
-              <Input type="email" id="email" placeholder="seu@email.com" />
+              <Input
+                type="text"
+                autoComplete="username"
+                id="username"
+                placeholder="Seu nome de usuário"
+              />
             </Field>
 
             <Field>
